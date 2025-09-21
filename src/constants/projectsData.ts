@@ -6,7 +6,7 @@ import homepagePreview from '../assets/wenroumao.gif';
 import italkingPreview from '../assets/italking.png';
 import scrcpyGUIPreview from '../assets/scrcpy-gui.gif';
 import termFolioGif from '../assets/music.gif';
-import thinkingPreview from '../assets/wechat.png';
+import thinkingPreview from '../assets/blog.gif';
 // 导入项目类型定义
 import { Project } from '../types/project';
 // 导入幻灯片ID常量
@@ -112,24 +112,24 @@ export const projectsData: Project[] = [
     ],
     layout: 'reverse',
   },
-  // {
-  //   id: SLIDE_IDS.THINKING,
-  //   name: '思考的价值',
-  //   title: '思考的价值 - 知识分享平台',
-  //   preview: thinkingPreview,
-  //   position: { x: -1500, y: 0, z: 800, rotateY: 180 },
-  //   description:
-  //     '我们每天都会接收到过载的信息，然而明月与砾同囊，其中的优质信息往往会被淹没。[思考的价值] 由此而来，分享内容不限，偏向于 LLMs、科技的方向',
-  //   tech: ['讨论平台', '知识分享', '内容创作'],
-  //   links: [
-  //     {
-  //       type: 'demo',
-  //       url: 'https://thinking.simonaking.com/',
-  //       text: '了解更多',
-  //     },
-  //   ],
-  //   layout: 'standard',
-  // },
+  {
+    id: SLIDE_IDS.THINKING,
+    name: '野似o温柔猫',
+    title: '野似o温柔猫 - 个人博客',
+    preview: thinkingPreview,
+    position: { x: -1500, y: 0, z: 800, rotateY: 180 },
+    description:
+      '用 Hexo 静态引擎搭配 Butterfly anzhiyu主题，轻松打造颜值与性能兼具的个人博客。',
+    tech: ['个人平台', '知识分享', '内容创作'],
+    links: [
+      {
+        type: 'demo',
+        url: 'https://blog.wenroumao.com',
+        text: '欢迎来到本站',
+      },
+    ],
+    layout: 'standard',
+  },
   // {
   //   id: SLIDE_IDS.SCRCPY,
   //   name: 'Scrcpy-GUI',
@@ -233,11 +233,11 @@ export const mapData = [
     name: '终端作品集',
     icon: 'fas fa-terminal',
   },
-  // {
-  //   id: SLIDE_IDS.THINKING,
-  //   name: '思考的价值',
-  //   icon: 'fas fa-brain',
-  // },
+  {
+    id: SLIDE_IDS.THINKING,
+    name: '思考的价值',
+    icon: 'fas fa-brain',
+  },
   // {
   //   id: SLIDE_IDS.SCRCPY,
   //   name: 'Scrcpy-GUI',
